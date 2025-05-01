@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pleasant Furnitures - Premium Kenyan Furniture</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!-- Preloader -->
+    <div class="preloader">
+      <div class="loader">
+        <div class="loader-bar"></div>
+        <div class="loader-bar"></div>
+        <div class="loader-bar"></div>
+        <div class="loader-bar"></div>
+      </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <span class="brand-name">Pleasant</span>
+          <span class="brand-sub">Furnitures</span>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#products">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonials">Testimonials</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero-section">
+      <div class="hero-overlay"></div>
+      <div class="container h-100">
+        <div class="row h-100 align-items-center">
+          <div class="col-md-8 hero-content">
+            <h1 class="hero-title animate__animated animate__fadeInDown">
+              Elegant Furniture for Modern Living
+            </h1>
+            <p class="hero-subtitle animate__animated animate__fadeInUp">
+              Handcrafted in Kenya with premium materials and timeless designs
+            </p>
+            <a
+              href="#products"
+              class="btn btn-primary btn-hero animate__animated animate__fadeInUp"
+              >Explore Collections</a
+            >
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Featured Products Carousel -->
+    <section class="featured-products py-5">
+      <div class="container">
+        <h2 class="section-title text-center mb-5">Our Featured Products</h2>
+        <div
+          id="productsCarousel"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row">
+                <div class="col-md-4 mb-4">
+                  <div class="product-card">
+                    <div class="product-img">
+                      <img
+                        src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+                        class="img-fluid"
+                        alt="Modern Sofa"
+                      />
+                      <div class="product-overlay">
+                        <button class="btn btn-outline-light">
+                          View Details
+                        </button>
+                      </div>
+                    </div>
+                    <div class="product-info">
+                      <h3>Luxury Velvet Sofa</h3>
+                      <p class="price">KSh 45,000</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                  <div class="product-card">
+                    <div class="product-img">
+                      <img
+                        src="https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
+                        class="img-fluid"
+                        alt="Dining Table"
+                      />
+                      <div class="product-overlay">
+                        <button class="btn btn-outline-light">
+                          View Details
+                        </button>
+                      </div>
+                    </div>
+                    <div class="product-info">
+                      <h3>Oak Dining Table</h3>
+                      <p class="price">KSh 32,000</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                  <div class="product-card">
+                    <div class="product-img">
+                      <img
+                        src="https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=735&q=80"
+                        class="img-fluid"
+                        alt="Bed"
+                      />
+                      <div class="product-overlay">
+                        <button class="btn btn-outline-light">
+                          View Details
+                        </button>
+                      </div>
+                    </div>
+                    <div class="product-info">
+                      <h3>King Size Bed</h3>
+                      <p class="price">KSh 58,000</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-md-4 mb-4">
+                  <div class="product-card">
+                    <div class="product-img">
+                      <img
+                        src="https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
+                        class="img-fluid"
+                        alt="Coffee Table"
+                      />
+                      <div class="product-overlay">
+                        <button class="btn btn-outline-light">
+                          View Details
+                        </button>
+                      </div>
+                    </div>
+                    <div class="product-info">
+                      <h3>Modern Coffee Table</h3>
+                      <p class="price">KSh 18,000</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                  <div class="product-card">
+                    <div class="product-img">
+                      <img
+                        src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=658&q=80"
+                        class="img-fluid"
+                        alt="Bookshelf"
+                      />
+                      <div class="product-overlay">
+                        <button class="btn btn-outline-light">
+                          View Details
+                        </button>
+                      </div>
+                    </div>
+                    <div class="product-info">
+                      <h3>Minimalist Bookshelf</h3>
+                      <p class="price">KSh 25,000</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                  <div class="product-card">
+                    <div class="product-img">
+                      <img
+                        src="https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+                        class="img-fluid"
+                        alt="Office Desk"
+                      />
+                      <div class="product-overlay">
+                        <button class="btn btn-outline-light">
+                          View Details
+                        </button>
+                      </div>
+                    </div>
+                    <div class="product-info">
+                      <h3>Executive Office Desk</h3>
+                      <p class="price">KSh 36,000</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#productsCarousel"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#productsCarousel"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <div class="text-center mt-4">
+          <a href="#products" class="btn btn-outline-primary"
+            >View All Products</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section py-5 bg-light">
+      <div class="container">
+        <h2 class="section-title text-center mb-5">Our Services</h2>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="service-card">
+              <div class="service-icon">
+                <i class="fas fa-couch"></i>
+              </div>
+              <h3>Custom Furniture</h3>
+              <p>
+                We design and build furniture tailored to your specific needs,
+                style preferences, and space requirements.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service-card">
+              <div class="service-icon">
+                <i class="fas fa-paint-roller"></i>
+              </div>
+              <h3>Interior Design</h3>
+              <p>
+                Our expert designers will transform your space into a functional
+                and aesthetically pleasing environment.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service-card">
+              <div class="service-icon">
+                <i class="fas fa-truck"></i>
+              </div>
+              <h3>Delivery & Installation</h3>
+              <p>
+                We handle delivery and professional installation throughout
+                Kenya with utmost care.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section py-5">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6 mb-4 mb-lg-0">
+            <div class="about-img">
+              <img
+                src="https://images.unsplash.com/photo-1600210492493-0946911123ea?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80"
+                class="img-fluid rounded"
+                alt="Our Workshop"
+              />
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <h2 class="section-title">About Pleasant Furnitures</h2>
+            <p>
+              Founded in 2010, Pleasant Furnitures has grown to become one of
+              Kenya's premier furniture design and manufacturing companies. Our
+              passion for craftsmanship and attention to detail sets us apart.
+            </p>
+            <p>
+              We combine traditional woodworking techniques with modern design
+              principles to create furniture that is both beautiful and built to
+              last. All our products are made in Kenya using sustainably sourced
+              materials.
+            </p>
+            <div class="about-stats row mt-4">
+              <div class="col-4 text-center">
+                <div class="stat-number" data-count="13">0</div>
+                <div class="stat-label">Years Experience</div>
+              </div>
+              <div class="col-4 text-center">
+                <div class="stat-number" data-count="2500">0</div>
+                <div class="stat-label">Happy Clients</div>
+              </div>
+              <div class="col-4 text-center">
+                <div class="stat-number" data-count="45">0</div>
+                <div class="stat-label">Skilled Craftsmen</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials-section py-5 bg-light">
+      <div class="container">
+        <h2 class="section-title text-center mb-5">What Our Clients Say</h2>
+        <div
+          id="testimonialCarousel"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="testimonial-card">
+                <div class="testimonial-content">
+                  <p>
+                    "Pleasant Furnitures transformed my living room with their
+                    custom sofa and coffee table. The quality is exceptional and
+                    the design perfectly matches my style. Highly recommended!"
+                  </p>
+                </div>
+                <div class="testimonial-author">
+                  <img
+                    src="https://randomuser.me/api/portraits/women/32.jpg"
+                    alt="Sarah K."
+                  />
+                  <div>
+                    <h5>Sarah K.</h5>
+                    <p>Nairobi</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="testimonial-card">
+                <div class="testimonial-content">
+                  <p>
+                    "The team designed and furnished my entire office space.
+                    Their attention to detail and understanding of our brand
+                    identity was impressive. The furniture has held up
+                    beautifully over the years."
+                  </p>
+                </div>
+                <div class="testimonial-author">
+                  <img
+                    src="https://randomuser.me/api/portraits/men/45.jpg"
+                    alt="James M."
+                  />
+                  <div>
+                    <h5>James M.</h5>
+                    <p>Mombasa</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="testimonial-card">
+                <div class="testimonial-content">
+                  <p>
+                    "I ordered a custom dining table for my family, and it's the
+                    centerpiece of our home now. The craftsmanship is
+                    outstanding, and the team was wonderful to work with
+                    throughout the process."
+                  </p>
+                </div>
+                <div class="testimonial-author">
+                  <img
+                    src="https://randomuser.me/api/portraits/women/68.jpg"
+                    alt="Amina W."
+                  />
+                  <div>
+                    <h5>Amina W.</h5>
+                    <p>Kisumu</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#testimonialCarousel"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#testimonialCarousel"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section py-5">
+      <div class="container">
+        <h2 class="section-title text-center mb-5">Contact Us</h2>
+        <div class="row">
+          <div class="col-lg-6 mb-4 mb-lg-0">
+            <div class="contact-info">
+              <div class="contact-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <div>
+                  <h4>Our Showroom</h4>
+                  <p>123 Furniture Avenue, Industrial Area, Nairobi, Kenya</p>
+                </div>
+              </div>
+              <div class="contact-item">
+                <i class="fas fa-phone-alt"></i>
+                <div>
+                  <h4>Call Us</h4>
+                  <p>+254 700 123 456</p>
+                  <p>+254 720 987 654</p>
+                </div>
+              </div>
+              <div class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <div>
+                  <h4>Email Us</h4>
+                  <p>info@pleasantfurnitures.co.ke</p>
+                  <p>sales@pleasantfurnitures.co.ke</p>
+                </div>
+              </div>
+              <div class="contact-item">
+                <i class="fas fa-clock"></i>
+                <div>
+                  <h4>Working Hours</h4>
+                  <p>Monday - Friday: 8:00 AM - 5:00 PM</p>
+                  <p>Saturday: 9:00 AM - 2:00 PM</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="contact-form">
+              <h3 class="mb-4">Send Us a Message</h3>
+              <form>
+                <div class="mb-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Your Name"
+                    required
+                  />
+                </div>
+                <div class="mb-3">
+                  <input
+                    type="email"
+                    class="form-control"
+                    placeholder="Your Email"
+                    required
+                  />
+                </div>
+                <div class="mb-3">
+                  <input
+                    type="tel"
+                    class="form-control"
+                    placeholder="Phone Number"
+                  />
+                </div>
+                <div class="mb-3">
+                  <textarea
+                    class="form-control"
+                    rows="5"
+                    placeholder="Your Message"
+                    required
+                  ></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">
+                  Send Message
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Products Section (Full) -->
+    <section id="products" class="products-section py-5 bg-light">
+      <div class="container">
+        <h2 class="section-title text-center mb-5">Our Product Collections</h2>
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-3">
+            <div class="collection-card">
+              <img
+                src="https://images.unsplash.com/photo-1583845112203-29329902330e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
+                alt="Living Room Furniture"
+              />
+              <div class="collection-overlay">
+                <h3>Living Room</h3>
+                <a href="#" class="btn btn-outline-light">View Collection</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="collection-card">
+              <img
+                src="https://images.unsplash.com/photo-1600210491892-03d54c0aaf87?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=735&q=80"
+                alt="Bedroom Furniture"
+              />
+              <div class="collection-overlay">
+                <h3>Bedroom</h3>
+                <a href="#" class="btn btn-outline-light">View Collection</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="collection-card">
+              <img
+                src="https://images.unsplash.com/photo-1600585152220-90363fe7e115?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+                alt="Dining Room Furniture"
+              />
+              <div class="collection-overlay">
+                <h3>Dining Room</h3>
+                <a href="#" class="btn btn-outline-light">View Collection</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="collection-card">
+              <img
+                src="https://images.unsplash.com/photo-1497366811353-6870744d04b2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1469&q=80"
+                alt="Office Furniture"
+              />
+              <div class="collection-overlay">
+                <h3>Office</h3>
+                <a href="#" class="btn btn-outline-light">View Collection</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter-section py-5">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center">
+            <h2 class="mb-4">Subscribe to Our Newsletter</h2>
+            <p class="mb-4">
+              Stay updated with our latest collections, exclusive offers, and
+              design tips.
+            </p>
+            <form class="newsletter-form">
+              <div class="input-group">
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Your Email Address"
+                  required
+                />
+                <button class="btn btn-primary" type="submit">Subscribe</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 mb-4 mb-lg-0">
+            <h3 class="footer-brand">Pleasant Furnitures</h3>
+            <p>
+              Creating beautiful, functional spaces with handcrafted furniture
+              made in Kenya.
+            </p>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-pinterest"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+            <h4>Quick Links</h4>
+            <ul class="footer-links">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#products">Products</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h4>Products</h4>
+            <ul class="footer-links">
+              <li><a href="#">Sofas & Couches</a></li>
+              <li><a href="#">Dining Tables</a></li>
+              <li><a href="#">Beds & Bedroom Sets</a></li>
+              <li><a href="#">Office Furniture</a></li>
+              <li><a href="#">Outdoor Furniture</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h4>Contact Info</h4>
+            <ul class="footer-contact">
+              <li>
+                <i class="fas fa-map-marker-alt"></i> 123 Nakuru Kenya, Egerton
+                University
+              </li>
+              <li><i class="fas fa-phone-alt"></i> +254 700 123 456</li>
+              <li>
+                <i class="fas fa-envelope"></i> info@pleasantfurnitures.co.ke
+              </li>
+            </ul>
+          </div>
+        </div>
+        <hr class="my-4" />
+        <div class="row">
+          <div class="col-md-6 text-center text-md-start">
+            <p class="mb-0">
+              &copy; 2023 Pleasant Furnitures. All rights reserved.
+            </p>
+          </div>
+          <div class="col-md-6 text-center text-md-end">
+            <p class="mb-0">
+              Designed by EasyBiz Solutions <i class="fas fa-heart"></i> in
+              Kenya
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top"><i class="fas fa-arrow-up"></i></a>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
